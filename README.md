@@ -10,7 +10,7 @@
 
 This repository contains the implementation of a bachelor thesis project developed at **The German University in Cairo (GUC)**.
 
-The project presents an AI-powered educational system that automatically transforms educational content into educationally meaningful audio mnemonics designed to improve learning and recall. The goal is to improve information retention and learning effectiveness by combining natural language processing, large language models, mnemonic generation techniques, and speech synthesis.
+The project presents an AI-powered educational system that automatically transforms educational content into educationally meaningful audio mnemonics designed to improve learning and recall. The goal is to improve memory retention and learning effectiveness by combining natural language processing, large language models, mnemonic generation techniques, and speech synthesis.
 
 The system extracts important concepts from educational text, reconstructs them into meaningful learning propositions, generates rhyming mnemonics designed to maintain educational meaning and conceptual accuracy, and finally converts the generated mnemonic into audio. Rather than relying on a single generated mnemonic, the system follows an overgenerate-and-rerank strategy by producing multiple mnemonic candidates, evaluating them according to educational and structural criteria, and selecting the highest-scoring candidate for audio synthesis.
 
@@ -22,6 +22,14 @@ The system automatically:
 - Evaluates and re-ranks candidate mnemonics
 - Selects the highest-scoring mnemonic
 - Synthesizes the final audio mnemonic
+
+---
+
+## User Interface
+
+The Streamlit-based interface demonstrates the complete end-to-end workflow of the system, allowing users to enter educational text, inspect extracted concepts, review refined learning propositions, read the generated mnemonic, and listen to or download the synthesized audio output.
+
+![System Interface](assets/screenshots/main_interface.png)
 
 ---
 
